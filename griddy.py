@@ -49,11 +49,11 @@ def run_grid_search_iteration(params, data):
     print(f"START: {name}")
     params['debug'] = DEBUG
 
-    train_loss_history, train_acc_history, valid_loss_history, valid_acc_history, best_acc, test_acc = run(params, data)
+    train_loss_history, train_acc_history, valid_loss_history, valid_acc_history, valid_acc, test_acc = run(params, data)
     
     out = {
         'name': name,
-        'acc_train': best_acc,
+        'acc_valid': valid_acc,
         'acc_test': test_acc,
         'train_loss_history': train_loss_history,
         'train_acc_history': train_acc_history,

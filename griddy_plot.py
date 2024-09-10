@@ -22,9 +22,12 @@ def plot_from_json(json_folder=JSON_FOLDER, img_folder=IMG_FOLDER):
             train_acc_history = data['train_acc_history']
             valid_loss_history = data['valid_loss_history']
             valid_acc_history = data['valid_acc_history']
-            name = data['name']
+            filename = data['name']
+            title = "Learning Curve" # your title
+            #title = f"LR:{data['params']['learning_rate']}"
+            #title = f"Reg: {data['params']['reg']}"
 
-            plot_curves(train_loss_history, train_acc_history, valid_loss_history, valid_acc_history, img_folder, name)
+            plot_curves(train_loss_history, train_acc_history, valid_loss_history, valid_acc_history, img_folder, filename, title)
 
 def json_to_csv(json_folder=JSON_FOLDER, csv_filename='acc_table.csv'):
     results = []

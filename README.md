@@ -1,10 +1,10 @@
 # griddy
 
-griddy.py saves jsons into `JSON_FOLDER `
+`griddy.py` saves jsons into `JSON_FOLDER `
 
-griddy_plot.py bulk plots them all using your `plot_curve()` function saving into `IMG_FOLDER `
+`griddy_plot.py` bulk plots them all using your `plot_curve()` function saving into `IMG_FOLDER `
 
-griddy_plot.py also saves a table of accuracy results as csv into `JSON_FOLDER `
+`griddy_plot.py` also saves a table of accuracy results as csv into `JSON_FOLDER `
 
 
 ### INSTRUCTIONS

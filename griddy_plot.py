@@ -39,7 +39,7 @@ def json_to_csv(json_folder=JSON_FOLDER, csv_filename='acc_table.csv'):
             entry = {
                 'name': data['name'],
                 'acc_test': data['acc_test'],
-                'acc_train': data['acc_train']
+                'acc_valid': data['acc_valid']
             }
             results.append(entry)
 

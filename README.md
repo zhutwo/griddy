@@ -26,4 +26,4 @@ change return line to this:
 
     return train_loss_history, train_acc_history, valid_loss_history, valid_acc_history, best_acc, test_acc
 
-modify your `plot_curve()` function to take `img_folder` and `filename` args and adjust plot saving code accordingly
+modify your `plot_curve()` function to take `img_folder`, `filename` and `title` args and adjust plot saving code accordingly

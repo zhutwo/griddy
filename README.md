@@ -15,5 +15,6 @@ Assignment 2 featured a leaderboard competition where students were tasked with 
 ### griddy_tuna
 
 
-`griddy_tuna` is a version made for the final group project as a means to wrap Optuna functionality in a format that was already familiar to my teammates, thereby saving sparing them from needing to RTFM.
+`griddy_tuna` is a version made for the final group project as a means to wrap Optuna functionality in a format that was already familiar to my teammates, thereby sparing them from needing to RTFM.
+
 
